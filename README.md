@@ -1,16 +1,20 @@
-## Hi there 👋
+# Julie Landrevie — Football Data & Video Analyst
 
-<!--
-**Julie-Landrevie/Julie-Landrevie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Aspiring football data analyst with a background in mobility and big event organization (Jo 2024 Paris).
+Certified in Sports Analytics (University of Michigan) and Video & Data Analysis 
+in Sport (Université de Lorraine).
 
-Here are some ideas to get you started:
+Passionate about turning football data into tactical insights.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+- [xG & Shooting Profile Analysis](lien) — StatsBomb open data, Python
+- [Physical Intensity & Tracking Analysis](lien) — SkillCorner open data, Python
+- [Pass Network & Team Structure](lien) — StatsBomb open data, Python
+- [Interactive Player Comparison Dashboard](lien) — FBref data, Streamlit
+
+## Certifications
+- Sports Analytics – University of Michigan (Coursera)
+- Analyse Vidéo et Data dans le Sport – Université de Lorraine
+
+## Tools
+Python | pandas | mplsoccer | matplotlib | Plotly | Streamlit | SQL
