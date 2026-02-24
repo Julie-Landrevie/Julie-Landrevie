@@ -1,6 +1,6 @@
 # Julie Landrevie — Football Data & Video Analyst
 
-Aspiring football data analyst with a background in mobility and big event organization (Jo 2024 Paris).
+Aspiring football data analyst with a background in mobility and big event organization (JO 2024 Paris).
 Certified in Sports Analytics (University of Michigan) and Video & Data Analysis 
 in Sport (Université de Lorraine).
 
