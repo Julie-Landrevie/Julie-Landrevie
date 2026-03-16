@@ -8,8 +8,8 @@ Passionate about turning football data into tactical insights.
 
 ### 🎯 Tactical Analysis & Data
 
-- **[Mon Petit Gazon Analytics](https://github.com/Julie-Landrevie/mpg-analytics)** — Fantasy football performance analysis, Python, data viz  
-- **[Tactical Dashboards](https://github.com/Julie-Landrevie/dashboards-tactiques)** — Interactive tactical analysis dashboards  
+- **Mon Petit Gazon Analytics** — Fantasy football performance analysis, Python, data viz *(in development)*  
+- **Tactical Dashboards** — Interactive tactical analysis dashboards *(in development)*  
 - **xG & Shooting Profile Analysis** — StatsBomb open data, Python *(coming soon)*  
 - **Physical Intensity & Tracking Analysis** — SkillCorner open data, Python *(coming soon)*  
 - **Pass Network & Team Structure** — StatsBomb open data, Python *(coming soon)*
@@ -24,7 +24,7 @@ Passionate about turning football data into tactical insights.
 - **Sports Analytics** — University of Michigan (Coursera)  
 - **Analyse Vidéo et Data dans le Sport** — Université de Lorraine  
 - **Dartfish Certified Analyst**  
-- **Once Sport Certified** *(in progress)*  
+- **Once sport Certified** *(in progress)*  
 - **Nacsport Certified** *(in progress)*
 
 ## Tools & Skills
@@ -36,4 +36,4 @@ Passionate about turning football data into tactical insights.
 
 ## Contact
 
-📧 julie.landrevie@efree.fr
+📧 julie.landrevie@efree.fr 
