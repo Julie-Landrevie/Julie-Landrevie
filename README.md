@@ -8,7 +8,7 @@ Passionate about turning football data into tactical insights.
 
 ### 🎯 Tactical Analysis & Data
 
-- **Mon Petit Gazon Analytics** — Fantasy football performance analysis, Python, data viz *(in development)*  
+- **Mon Petit Gazon Analytics** — Fantasy football performance analysis, Python, data viz  
 - **Tactical Dashboards** — Interactive tactical analysis dashboards *(in development)*  
 - **xG & Shooting Profile Analysis** — StatsBomb open data, Python *(coming soon)*  
 - **Physical Intensity & Tracking Analysis** — SkillCorner open data, Python *(coming soon)*  
@@ -29,11 +29,11 @@ Passionate about turning football data into tactical insights.
 
 ## Tools & Skills
 
-**Video Analysis:** Dartfish | Once Sport | Hudl | Nacsport  
+**Video Analysis:** Dartfish | Once Sport | Nacsport | Hudl
 **Programming:** Python | pandas | mplsoccer | matplotlib | Plotly | Streamlit  
 **Data Sources:** StatsBomb | SkillCorner | FBref | Wyscout  
 **Platforms:** Jupyter | Git | VS Code
 
 ## Contact
 
-📧 julie.landrevie@efree.fr 
+📧 julie.landrevie@free.fr 
