@@ -29,9 +29,9 @@ Passionate about turning football data into tactical insights.
 
 ## Tools & Skills
 
-**Video Analysis:** Dartfish | Once Sport | Nacsport | Hudl
+**Video Analysis:** Dartfish | Once Sport | Nacsport | Hudl  
 **Programming:** Python | pandas | mplsoccer | matplotlib | Plotly | Streamlit  
-**Data Sources:** StatsBomb | SkillCorner | FBref | Wyscout  
+**Data Sources:** StatsBomb | SkillCorner | FBref | Wyscout   
 **Platforms:** Jupyter | Git | VS Code
 
 ## Contact
