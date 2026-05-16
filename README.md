@@ -4,36 +4,49 @@ Aspiring football data analyst with a background in mobility and big event organ
 
 Passionate about turning football data into tactical insights.
 
-## Projects
+---
 
-### 🎯 Tactical Analysis & Data
+## 🎯 Projects — Tactical Analysis & Data
 
-- **Mon Petit Gazon Analytics** — Fantasy football performance analysis, Python, data viz  
-- **Tactical Dashboards** — Interactive tactical analysis dashboards *(in development)*  
-- **xG & Shooting Profile Analysis** — StatsBomb open data, Python *(coming soon)*  
-- **Physical Intensity & Tracking Analysis** — SkillCorner open data, Python *(coming soon)*  
-- **Pass Network & Team Structure** — StatsBomb open data, Python *(coming soon)*
+| Project | Description | Stack | Status |
+|---------|-------------|-------|--------|
+| **[MPG Optimizer](https://github.com/Julie-Landrevie/mpg-optimizer)** | Fantasy football analytics — scoring, optimiseur XI, pépites | Python, Streamlit, pandas | ✅ [Live](https://mpg-optimizer.streamlit.app) |
+| **World Cup 2026 Predictor** | Match score & top scorer predictions for the World Cup | Python, Poisson model, Streamlit | 🔨 In progress |
+| **Tactical Dashboards** | Interactive tactical analysis dashboards | Python, mplsoccer, Plotly | 🔨 In development |
+| **xG & Shooting Profile Analysis** | Shot quality analysis with StatsBomb open data | Python, StatsBomb | 🔜 Coming soon |
+| **Physical Intensity & Tracking Analysis** | Player load & movement analysis | Python, SkillCorner | 🔜 Coming soon |
+| **Pass Network & Team Structure** | Team structure & passing patterns | Python, StatsBomb | 🔜 Coming soon |
 
-### 📹 Video Analysis
+---
 
-- Professional video analysis projects using **Dartfish**, **Once Sport**, **Hudl**, and **Nacsport**  
-- Tactical breakdowns, performance reports, and match analysis
+## 📹 Video Analysis
 
-## Certifications
+Professional video analysis projects using **Dartfish**, **Once Sport**, **Hudl**, and **Nacsport** — tactical breakdowns, performance reports, and match analysis.
 
-- **Sports Analytics** — University of Michigan (Coursera)  
-- **Analyse Vidéo et Data dans le Sport** — Université de Lorraine  
-- **Dartfish Certified Analyst**  
-- **Once sport Certified** *(in progress)*  
-- **Nacsport Certified** *(in progress)*
+---
 
-## Tools & Skills
+## 🎓 Certifications
 
-**Video Analysis:** Dartfish | Once Sport | Nacsport | Hudl  
-**Programming:** Python | pandas | mplsoccer | matplotlib | Plotly | Streamlit  
-**Data Sources:** StatsBomb | SkillCorner | FBref | Wyscout   
-**Platforms:** Jupyter | Git | VS Code
+- Sports Analytics — **University of Michigan** (Coursera)
+- Analyse Vidéo et Data dans le Sport — **Université de Lorraine**
+- Dartfish Certified Analyst
+- Once Sport Certified *(in progress)*
+- Nacsport Certified *(in progress)*
 
-## Contact
+---
 
-📧 julie.landrevie@free.fr 
+## 🛠️ Tools & Skills
+
+**Video Analysis** — Dartfish · Once Sport · Nacsport · Hudl
+
+**Programming** — Python · pandas · mplsoccer · matplotlib · Plotly · Streamlit
+
+**Data Sources** — StatsBomb · SkillCorner · FBref · Wyscout
+
+**Platforms** — Jupyter · Git · VS Code
+
+---
+
+## 📧 Contact
+
+[julie.landrevie@free.fr](mailto:julie.landrevie@free.fr)
