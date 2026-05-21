@@ -10,7 +10,7 @@
 
 | Projet | Description | Stack | Status |
 |---|---|---|---|
-| [MPG Optimizer](https://github.com/Julie-Landrevie/mpg-optimizer) | Fantasy football analytics — scoring, optimiseur XI, pépites | Python, Streamlit, pandas | ✅ Live |
+| [MPG Optimizer](https://github.com/Julie-Landrevie/mpg-optimizer) | Fantasy football analytics — scoring, optimiseur XI, pépites | Python, Streamlit, pandas | ✅ [Live](https://mpg-optimizer.streamlit.app) |
 | [World Cup 2026 Predictor](https://github.com/Julie-Landrevie/world-cup-predictor) | Match score & top scorer predictions for the World Cup | Python, Poisson model, Streamlit | 🔨 In progress |
 | [Tactical Dashboard](https://github.com/Julie-Landrevie/tactical-dashboard-football) | Interactive tactical analysis dashboards — Pass Network, xG, Pressing, Heatmaps | Python, mplsoccer, Plotly, Streamlit | ✅ [Live](https://julie-landrevie-tactical-dashboard-football.streamlit.app) |
 | xG & Shooting Profile Analysis | Shot quality analysis with StatsBomb open data | Python, StatsBomb | 🔜 Coming soon |
