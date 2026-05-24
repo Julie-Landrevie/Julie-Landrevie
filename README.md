@@ -14,7 +14,7 @@
 | [World Cup 2026 Predictor](https://github.com/Julie-Landrevie/world-cup-predictor) | Match score & top scorer predictions for the World Cup | Python · Poisson model · Streamlit | 🔨 In progress |
 | [Tactical Dashboard](https://github.com/Julie-Landrevie/tactical-dashboard-football) | Interactive tactical analysis dashboards — Pass Network, xG, Pressing, Heatmaps | Python · mplsoccer · Plotly · Streamlit | ✅ [Live](https://tactical-dashboard-football.streamlit.app) |
 | [xG & Shooting Profile Analysis](https://github.com/Julie-Landrevie/xg-shooting-analysis) | Shot quality analysis with StatsBomb open data | Python · StatsBomb · mplsoccer · Streamlit | ✅ [Live](https://xg-shooting-analysis.streamlit.app) |
-| Physical Intensity & Tracking Analysis | Player load & movement analysis | Python · SkillCorner | 🔜 Coming soon |
+| [Physical Intensity & Tracking Analysis](https://github.com/Julie-Landrevie/physical-tracking) | Player load & movement analysis | Python · SkillCorner | ✅ [Live](https://physical-tracking.streamlit.app)|
 | Pass Network & Team Structure | Team structure & passing patterns | Python · StatsBomb | 🔜 Coming soon |
 
 ---
