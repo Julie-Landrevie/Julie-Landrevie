@@ -15,7 +15,7 @@ Après plusieurs années dans l'ingénieurie et l'organisation de grands événe
 
 Ce n'est pas un virage à 180°. C'est la même logique : **comprendre des systèmes complexes, extraire ce qui compte, et le rendre actionnable**. Sauf qu'aujourd'hui, le terrain de jeu c'est un rectangle vert et les 22 joueurs qui s'y déplacent.
 
-Certifiée en **Sports Analytics** (Université du Michigan) et **Analyse Vidéo & Data dans le Sport** (Université de Lorraine), je maîtrise à la fois le code (Python, StatsBomb, SkillCorner) et les outils vidéo professionnels (Dartfish, Once Sport, Nacsport, Hudl).
+Certifiée en **Sports Analytics** (Université du Michigan) et **Analyse Vidéo & Data dans le Sport** (Université de Lorraine), je maîtrise à la fois le code (Python, StatsBomb, SkillCorner) et les outils vidéo professionnels (Dartfish, Once Sport, Nacsport).
 
 > Ce qui me distingue : je fais les deux. Data **et** vidéo. Chiffres **et** images. C'est rare — et c'est délibéré.
 
