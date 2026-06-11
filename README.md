@@ -44,7 +44,7 @@ Interface de recrutement data-driven inspirée des cartes FIFA, enrichie de vrai
 |--------|-------------|-------|-----|
 | 🔍 **ScoutPro** | Scouting interactif — 6 343 joueurs enrichis, Scout Report, percentiles | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
 | ⚽ **MPG Optimizer** | Fantasy football analytics — scoring, optimiseur XI, pépites | Python · Streamlit · pandas | [Live ↗](https://mpg-optimizer.streamlit.app) |
-| 🏆 **World Cup 2026 Predictor** | Prédictions scores & meilleur buteur — modèle de Poisson | Python · Poisson · Streamlit | [En cours 🔨](#) |
+| 🏆 **World Cup 2026 Predictor** | Prédictions scores & meilleur buteur — modèle de Poisson | Python · Poisson · Streamlit | [Live ↗](https://worldcup-2026-predictor.streamlit.app) |
 | 📊 **Tactical Dashboard** | Réseaux de passes, xG, pressing, heatmaps — données Ligue 1 | Python · mplsoccer · Plotly | [Live ↗](https://tactical-dashboard-football.streamlit.app) |
 | 🎯 **xG & Shooting Profile** | Qualité des tirs, shot maps, profils de finisseurs | Python · StatsBomb · mplsoccer | [Live ↗](https://xg-shooting-analysis.streamlit.app) |
 | 🏃 **Physical Intensity & Tracking** | Charges physiques & déplacements — données SkillCorner | Python · SkillCorner · pandas | [Live ↗](https://physical-tracking.streamlit.app) |
