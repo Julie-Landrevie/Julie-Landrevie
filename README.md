@@ -83,7 +83,7 @@ Environnement    │ Jupyter · Git · VS Code · GitHub Pages
 - 🎓 **Sports Analytics** — University of Michigan (Coursera)
 - 🎓 **Analyse Vidéo & Data dans le Sport** — Université de Lorraine
 - ✅ **Dartfish Certified Analyst**
-- 🔨 **Once Sport Certified** *(en cours)*
+- ✅ **Once Sport Certified** 
 - 🔨 **Nacsport Certified** *(en cours)*
 
 ---
