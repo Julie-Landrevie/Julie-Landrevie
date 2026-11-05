@@ -15,7 +15,7 @@ Après plus de 4 ans en cabinet de conseil, dont une mission pour les **Jeux Oly
 
 Ce n'est pas un virage à 180°. C'est la même logique : **comprendre des systèmes complexes, extraire ce qui compte, et le rendre actionnable**. Sauf qu'aujourd'hui, le terrain de jeu c'est un rectangle vert et les 22 joueurs et joueuses qui s'y déplacent.
 
-Certifiée en **Sports Analytics** (Université du Michigan) et **Analyse Vidéo & Data dans le Sport** (Université de Lorraine), je travaille à la fois le code (Python, R, StatsBomb, SkillCorner, GPS) et la vidéo (Dartfish certifiée ; Once Sport et Nacsport en cours).
+Certifiée en **Sports Analytics** (Université du Michigan) et **Analyse Vidéo & Data dans le Sport** (Université de Lorraine), je travaille à la fois le code (Python, R, StatsBomb, SkillCorner, GPS) et la vidéo (Dartfish et Once Sport certifiée ; Nacsport en cours).
 
 > Ce qui me distingue : je fais les deux. Data **et** vidéo. Chiffres **et** images. C'est rare — et c'est délibéré.
 
