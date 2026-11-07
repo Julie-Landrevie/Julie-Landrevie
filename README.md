@@ -40,11 +40,29 @@ Pipeline R complet de monitoring de la charge interne et externe sur deux saison
 
 ---
 
+## 🤖 Projet IA — Assistant sur les Lois du Jeu, avec évaluation
+
+> **Un modèle de langage répond-il mieux avec le texte officiel ? Et comment le mesurer ?**
+
+Assistant de questions-réponses sur le livret **IFAB 2026/27** (276 pages) : découpage du PDF par loi avec contrôle qualité, recherche documentaire (RAG, BM25 codé à la main), génération via l'API Mistral avec citation obligatoire de la loi. Surtout, une **grille d'évaluation sur 40 questions** : exactitude, bonne loi citée, refus justifiés, rappel de la recherche, relecture humaine des cas contestés.
+
+- **Sans le livret** : 22 % de réponses fausses, alors que le modèle cite une loi dans 97 % des cas (exemple : l'ancienne règle des 6 secondes pour le gardien)
+- **Avec le livret** : aucune réponse fausse ; nouveautés 2026/27 traitées 3 fois sur 3 (0 sur 3 sans)
+- **v1 → v2** : l'analyse des erreurs désigne la recherche comme maillon faible ; une fois corrigée, 94 % de réponses exactes (81 % en v1) et 3 % de refus (19 % en v1)
+- **Juge automatique contrôlé** : les 3 verdicts « faux » étaient démentis à la relecture dans le texte officiel
+
+**Stack :** Python · pypdf · BM25 · API Mistral · unittest (17 tests)
+
+[![Code](https://img.shields.io/badge/Code_et_résultats-GitHub-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/lois-du-jeu-ia)
+
+---
+
 ## 🗂️ Tous les projets
 
 | Projet | Description | Stack | App |
 |--------|-------------|-------|-----|
 | ⚖️ **Suivi de charge — football féminin** | Charge interne et externe, GPS, alertes, retour au jeu, seuils féminins — SoccerMon | R · arrow · Plotly | [Tableau de bord ↗](https://julie-landrevie.github.io/womens-football-load-monitoring/) |
+| 🤖 **Assistant IA — Lois du Jeu** | RAG sur le livret IFAB 2026/27 et grille d'évaluation : 22 % → 0 % de réponses fausses avec le texte officiel | Python · BM25 · API Mistral | [Code ↗](https://github.com/Julie-Landrevie/lois-du-jeu-ia) |
 | 🔍 **ScoutPro** | Scouting interactif — 6 343 joueurs sur 43 compétitions, Scout Report, percentiles | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
 | 🏃 **Physical Intensity & Tracking** | Kilométrage, vitesse max, zones d'intensité — SkillCorner + Metrica Sports | Python · pandas · Plotly | [Live ↗](https://physical-tracking.streamlit.app) |
 | 📊 **Tactical Dashboard** | Réseaux de passes, xG, pressing, heatmaps — StatsBomb Open Data | Python · mplsoccer · Plotly | [Live ↗](https://tactical-dashboard-football.streamlit.app) |
@@ -72,6 +90,7 @@ Exemple sur **Dartfish** : codage de la finale de la Supercoupe d'Espagne (Real 
 Analyse vidéo    │ Dartfish · Once Sport · Nacsport
 Programmation    │ Python · pandas · mplsoccer · Plotly · Streamlit
                  │ R · tidyverse · ggplot2 · R Markdown
+IA générative    │ RAG (recherche BM25) · API Mistral · évaluation (juge automatique + relecture)
 Sources data     │ StatsBomb · SkillCorner · Metrica Sports · SoccerMon (GPS) · FBref
 Environnement    │ Jupyter · Git · VS Code · GitHub Pages
 ```
@@ -90,7 +109,7 @@ Environnement    │ Jupyter · Git · VS Code · GitHub Pages
 
 ## 📬 Me contacter
 
-Je suis ouverte à toute opportunité en **data analyst**, **analyste vidéo**, **sport science** ou **scout data** dans le football professionnel — club, agence, éditeur de données ou fédération.
+Je suis ouverte à toute opportunité en **data analyst**, **data / IA appliquée au sport**, **analyste vidéo**, **sport science** ou **scout data** — club, agence, éditeur de données ou fédération.
 
 **[julie.landrevie@free.fr](mailto:julie.landrevie@free.fr)** · **[Portfolio complet](https://notion.so/julie-landrevie)** · **[LinkedIn](https://linkedin.com/in/julie-landrevie)**
 
