@@ -117,7 +117,7 @@ Trois questions, un même dépôt, des intervalles de confiance à chaque fois (
 | ⚖️ **Opportunités égales** | Classer les joueuses par minute, par possession, par fenêtre de match — 4 championnats féminins | Python · Streamlit · Altair | [Live ↗](https://womens-football-opportunity.streamlit.app) |
 | 🔬 **Trois études courtes** | Phases arrêtées, penalties, fiabilité des statistiques en football féminin | Python · bootstrap · pytest | [Code ↗](https://github.com/Julie-Landrevie/etudes-football-feminin) |
 | 🤖 **Assistant IA — Lois du Jeu** | RAG sur le livret IFAB 2026/27 et grille d'évaluation : 22 % → 0 % de réponses fausses avec le texte officiel | Python · BM25 · API Mistral | [Code ↗](https://github.com/Julie-Landrevie/lois-du-jeu-ia) |
-| 🔍 **ScoutPro** | Scouting interactif — 6 343 joueuses et joueurs, percentiles par groupe de postes, Scout Report | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
+| 🔍 **ScoutPro** | Scouting interactif — 6 343 joueurs (compétitions masculines), percentiles par groupe de postes, Scout Report | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
 | 🏃 **Physical Intensity & Tracking** | Kilométrage, vitesse max, zones d'intensité — SkillCorner + Metrica Sports | Python · pandas · Plotly | [Live ↗](https://physical-tracking.streamlit.app) |
 | 📊 **Tactical Dashboard** | Réseaux de passes, xG, pressing, heatmaps — StatsBomb Open Data | Python · mplsoccer · Plotly | [Live ↗](https://tactical-dashboard-football.streamlit.app) |
 | 🕸️ **Pass Network & Team Structure** | Réseaux de passes, joueurs pivots par centralité | Python · NetworkX · mplsoccer | [Live ↗](https://pass-network.streamlit.app) |
