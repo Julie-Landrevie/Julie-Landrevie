@@ -3,7 +3,8 @@
 
 *Turning football data into tactical and performance decisions.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-black?style=flat-square&logo=notion)](https://notion.so/julie-landrevie)
+[![Site](https://img.shields.io/badge/Portfolio-julie--landrevie.github.io-0d8f84?style=flat-square)](https://julie-landrevie.github.io/)
+[![Notion](https://img.shields.io/badge/Détails-Notion-black?style=flat-square&logo=notion)](https://notion.so/julie-landrevie)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Julie_Landrevie-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/julie-landrevie)
 [![Email](https://img.shields.io/badge/Email-julie.landrevie%40free.fr-EA4335?style=flat-square&logo=gmail)](mailto:julie.landrevie@free.fr)
 
@@ -35,7 +36,7 @@ Pipeline R complet de monitoring de la charge interne et externe sur deux saison
 
 **Stack :** R · tidyverse · ggplot2 · arrow · R Markdown · JavaScript · Plotly · GitHub Pages
 
-[![Tableau de bord](https://img.shields.io/badge/▶_Tableau_de_bord-GitHub_Pages-2a78d6?style=flat-square&logo=github)](https://julie-landrevie.github.io/womens-football-load-monitoring/)
+[![Tableau de bord](https://img.shields.io/badge/▶_Tableau_de_bord-GitHub_Pages-0d8f84?style=flat-square&logo=github)](https://julie-landrevie.github.io/womens-football-load-monitoring/)
 [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/womens-football-load-monitoring)
 
 ---
@@ -57,13 +58,66 @@ Assistant de questions-réponses sur le livret **IFAB 2026/27** (276 pages) : d�
 
 ---
 
+## 📏 Vestiaire — seuils féminins et outil de suivi pour les staffs
+
+> **Les seuils de sprint masculins cachent-ils des joueuses ?**
+
+Les seuils de vitesse publiés par **SkillCorner** (sprint > 23 km/h, accélération > 2,7 m/s² chez les femmes ; 25 km/h et 3 m/s² chez les hommes) appliqués aux GPS de SoccerMon. Les seuils sont ceux de SkillCorner ; les calculs sur SoccerMon sont les miens.
+
+- **43 % → 15 %** des séances de match sans aucun sprint, seuils masculins puis féminins
+- **16 → 69 m** de sprint par match (médiane)
+- **0,96** de corrélation de rang entre les deux classements : le gain est individuel, l'ordre des joueuses change peu
+- Prototype d'outil de suivi pensé pour un staff
+
+**Stack :** Python · pandas · unittest
+
+[![Code](https://img.shields.io/badge/Code_et_résultats-GitHub-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/vestiaire-metrics)
+
+---
+
+## ⚖️ Comparer les joueuses à opportunités égales
+
+> **Le classement d'une joueuse change-t-il quand on tient compte de son temps de jeu, de la possession de son équipe et de ses adversaires ?**
+
+634 matchs de quatre championnats féminins 2023/24 (WSL, Frauen-Bundesliga, Liga F, Serie A — StatsBomb Open Data).
+
+- **×1,33** de pressions par minute pour une remplaçante, comparée à elle-même titulaire sur la même fenêtre de match (200 joueuses)
+- **34 %** des joueuses changent nettement de rang en pressions quand on passe du « par 90 » au « par possession adverse »
+- Application pour comparer deux joueuses selon la normalisation choisie
+
+**Stack :** Python · pandas · bootstrap · Streamlit · Altair · pytest
+
+[![App](https://img.shields.io/badge/▶_Application-Streamlit-0d8f84?style=flat-square&logo=streamlit)](https://womens-football-opportunity.streamlit.app)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/womens-football-opportunity)
+
+---
+
+## 🔬 Trois études courtes sur le football féminin
+
+Trois questions, un même dépôt, des intervalles de confiance à chaque fois (StatsBomb Open Data).
+
+| Étude | Question | Résultat clé |
+|-------|----------|--------------|
+| **Phases arrêtées** | Le football féminin dépend-il davantage des coups de pied arrêtés ? | Non : 39,8 % du xG hors penalty des deux côtés (écart 0,0 point, IC 95 % −1,3 à +1,3). La définition retenue pèse plus que le genre (17 % → 50 %) |
+| **Penalties** | Où tirent les joueuses, avec quelle réussite ? | 45 % visent le bas à droite de la gardienne ; 60,9 % de réussite en séance de tirs au but contre 76,2 % en match |
+| **Fiabilité des statistiques** | Combien de minutes avant qu'une statistique par 90 soit fiable ? | 22 statistiques sur 24 fiables sur une saison de WSL ; les contres demandent 2 026 minutes. Aussi fiables que chez les hommes à minutes égales |
+
+**Stack :** Python · pandas · bootstrap · intervalles de Wilson · Spearman-Brown · pytest
+
+[![Code](https://img.shields.io/badge/Code_et_résultats-GitHub-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/etudes-football-feminin)
+
+---
+
 ## 🗂️ Tous les projets
 
 | Projet | Description | Stack | App |
 |--------|-------------|-------|-----|
 | ⚖️ **Suivi de charge — football féminin** | Charge interne et externe, GPS, alertes, retour au jeu, seuils féminins — SoccerMon | R · arrow · Plotly | [Tableau de bord ↗](https://julie-landrevie.github.io/womens-football-load-monitoring/) |
+| 📏 **Vestiaire** | Seuils de sprint féminins (SkillCorner) sur les GPS SoccerMon : 43 % → 15 % de matchs sans sprint | Python · pandas | [Code ↗](https://github.com/Julie-Landrevie/vestiaire-metrics) |
+| ⚖️ **Opportunités égales** | Classer les joueuses par minute, par possession, par fenêtre de match — 4 championnats féminins | Python · Streamlit · Altair | [Live ↗](https://womens-football-opportunity.streamlit.app) |
+| 🔬 **Trois études courtes** | Phases arrêtées, penalties, fiabilité des statistiques en football féminin | Python · bootstrap · pytest | [Code ↗](https://github.com/Julie-Landrevie/etudes-football-feminin) |
 | 🤖 **Assistant IA — Lois du Jeu** | RAG sur le livret IFAB 2026/27 et grille d'évaluation : 22 % → 0 % de réponses fausses avec le texte officiel | Python · BM25 · API Mistral | [Code ↗](https://github.com/Julie-Landrevie/lois-du-jeu-ia) |
-| 🔍 **ScoutPro** | Scouting interactif — 6 343 joueurs sur 43 compétitions, Scout Report, percentiles | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
+| 🔍 **ScoutPro** | Scouting interactif — 6 343 joueuses et joueurs, percentiles par groupe de postes, Scout Report | Python · StatsBomb · Streamlit | [Live ↗](https://scoutpro-football.streamlit.app) |
 | 🏃 **Physical Intensity & Tracking** | Kilométrage, vitesse max, zones d'intensité — SkillCorner + Metrica Sports | Python · pandas · Plotly | [Live ↗](https://physical-tracking.streamlit.app) |
 | 📊 **Tactical Dashboard** | Réseaux de passes, xG, pressing, heatmaps — StatsBomb Open Data | Python · mplsoccer · Plotly | [Live ↗](https://tactical-dashboard-football.streamlit.app) |
 | 🕸️ **Pass Network & Team Structure** | Réseaux de passes, joueurs pivots par centralité | Python · NetworkX · mplsoccer | [Live ↗](https://pass-network.streamlit.app) |
@@ -77,10 +131,14 @@ Assistant de questions-réponses sur le livret **IFAB 2026/27** (276 pages) : d�
 
 Les projets data ne racontent qu'une partie de l'histoire.
 
-Exemple sur **Dartfish** : codage de la finale de la Supercoupe d'Espagne (Real Madrid 2-5 FC Barcelone), positionnement du gardien sur les frappes croisées, et plan d'entraînement en 4 blocs (technique, physique, tactique, mental).
+**Once Sport** : 96 actions codées sur le résumé de Manchester City – PSG, avec mon propre panneau de codage (40 types d'actions, 9 zones).
+
+**Tennis de table** : finale des Championnats de France 2025 codée point par point dans Dartfish (151 points) — 62 % des points du vainqueur gagnés en coup droit, 91 % au 7e set.
+
+**Dartfish** : codage de la finale de la Supercoupe d'Espagne (Real Madrid 2-5 FC Barcelone), positionnement du gardien sur les frappes croisées, et plan d'entraînement en 4 blocs (technique, physique, tactique, mental).
 
 [![Vidéo](https://img.shields.io/badge/▶_Voir_l'analyse-YouTube-FF0000?style=flat-square&logo=youtube)](https://youtu.be/QwjbEjAHlig)
-[![Portfolio](https://img.shields.io/badge/Détails-Portfolio_Notion-black?style=flat-square&logo=notion)](https://notion.so/julie-landrevie)
+[![Portfolio](https://img.shields.io/badge/Détails-Portfolio-0d8f84?style=flat-square)](https://julie-landrevie.github.io/)
 
 ---
 
@@ -91,6 +149,7 @@ Analyse vidéo    │ Dartfish · Once Sport · Nacsport
 Programmation    │ Python · pandas · mplsoccer · Plotly · Streamlit
                  │ R · tidyverse · ggplot2 · R Markdown
 IA générative    │ RAG (recherche BM25) · API Mistral · évaluation (juge automatique + relecture)
+Statistiques     │ bootstrap · intervalles de Wilson · Spearman-Brown · Poisson · Monte Carlo
 Sources data     │ StatsBomb · SkillCorner · Metrica Sports · SoccerMon (GPS) · FBref
 Environnement    │ Jupyter · Git · VS Code · GitHub Pages
 ```
@@ -111,7 +170,7 @@ Environnement    │ Jupyter · Git · VS Code · GitHub Pages
 
 Je suis ouverte à toute opportunité en **data analyst**, **data / IA appliquée au sport**, **analyste vidéo**, **sport science** ou **scout data** — club, agence, éditeur de données ou fédération.
 
-**[julie.landrevie@free.fr](mailto:julie.landrevie@free.fr)** · **[Portfolio complet](https://notion.so/julie-landrevie)** · **[LinkedIn](https://linkedin.com/in/julie-landrevie)**
+**[julie.landrevie@free.fr](mailto:julie.landrevie@free.fr)** · **[Portfolio](https://julie-landrevie.github.io/)** · **[Notion](https://notion.so/julie-landrevie)** · **[LinkedIn](https://linkedin.com/in/julie-landrevie)**
 
 ---
 
